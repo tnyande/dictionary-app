@@ -1,0 +1,137 @@
+:root{
+  --bg-color:#F6F8FF;
+  --white:#FEFEFE;
+  --primaryBlue:#0079FF;
+  --lightBlue: #60ABFF;
+  --dark: #2B3442;
+  --bgdark-color: #141D2F;
+  --bgcarddark:#1E2A47;
+  --grey: #697C9A;
+  --bgSecondary:#4B6A9B;
+  --darkgrey:#222731;
+
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+ /* background-images: url('C:\Users\Takasi-Laptop\Documents\Mac_Docs\Edureka_React_Course\Practice\Azubi\dictionary-app\src\assets\images\insects-2688952_1280.jpg');
+  backgrounds: rgba(255, 255, 255, 0.5) url('https://cdn.pixabay.com/photo/2016/11/03/09/22/silhouette-1793916_640.jpg');
+  opacity:;
+  */
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.toggles{
+  width: 40px;
+  height: 20px;
+  margin-top: 66px;
+  color: var(--grey);
+  
+
+}
+.moon{
+  .toggle{
+    width: 19.99px;
+    height: 20px;
+    margin-top: 66px;
+    margin-left: 20px ;
+    border: 1.5px;
+    color: white;
+  
+  }
+}
+.darkmoon{
+  display: flex;
+  flex-direction: row;
+  width: 79.99px;
+  height: 20px;
+  margin-top: -46px;
+  margin-left: 1008px;
+  
+}
+
+.logo{
+  display: flex;
+  width: 32px;
+  height: 36.5px;
+  margin-top: 66px;
+  margin-left: 351px;
+}
+
+.arrow{
+  display: flex;
+ 
+}
+
+.searchform{
+  display: flex;
+  width: 736px;
+  height: 64px;
+  margin-left: 352px;
+  margin-top: 90px;
+  border: 1px solid;
+}
+
+.inputText{
+  width: 736px;
+  
+}
+.search{
+  width: 30px;
+  height: 30px;
+  color: red;
+}
+.theme-icon{
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+.dark {
+  background-color: var(--bgdark-color) !important;
+  color: white;
+}
+.dark .search {
+  color: white;
+}
+.light {
+  background-color: var(--white) !important;
+  color: black;
+
+ 
+}
+.light .word {
+  color: black;
+}
+.light .arrow {
+  color: black;
+}
+.light .toggle {
+  color: black;
+}
+.light .search {
+  color: black;
+}
+.light body{
+  color: black;
+}
+.dark body{
+  background-color: var(--bgdark-color);
+}
+.word{
+  display: flex;
+  width: 736px;
+  margin-left: 350px;
+  margin-top: 40px;
+  border: 1px solid;
+}
+.sounds{
+  margin-left: 600px;
+}

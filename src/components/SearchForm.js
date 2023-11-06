@@ -23,20 +23,21 @@ const SearchForm = () => {
     
     return(
       <div>
+        <form onSubmit={handleSubmit} >
         <div className="searchform flex top-12">
             
             <input className="inputText" name="search" type="text" 
-            value={searchTerm} onChange={handleInput }/> 
-            
-            <CiSearch className="search" onClick={handleSubmit}/>
+            value={searchTerm} onChange={handleInput }
+            /> 
+           
+            <CiSearch className="search" onClick={handleSubmit}
+            />
+           
             </div>
+            </form>
         <div className="word">
-          {/*
-          <h1>
-            {searchTerm}
-          </h1>
-        */}
-          <div>
+          
+          <div >
             
            {words && words.map((word) => {
               
@@ -52,7 +53,7 @@ const SearchForm = () => {
             return (
               <div key={Math.floor(Math.random()*100000)}>
 
-              <p>{word.word}</p>
+              <p >{word.word}</p>
               <h3 >
               {word.phonetic}
 
@@ -62,6 +63,7 @@ const SearchForm = () => {
              
               </h3>
               
+              <div>
               <p>
                 {word.meanings.map((means) => {
                   return (
@@ -71,6 +73,7 @@ const SearchForm = () => {
                       <p>
                         Meaning
                       </p>
+                      <div>
                       {means.definitions.map((defin) => {
 
                         return(
@@ -89,11 +92,12 @@ const SearchForm = () => {
                           </div>
                         )
                       })}
+                      </div>
                      </p>
                      
                      <p> 
                       Synonyms <span> </span>
-                       {means.synonyms} 
+                      {means.synonyms}
                       </p> 
 
                      
@@ -103,6 +107,7 @@ const SearchForm = () => {
                 })}
              {/* {word.meanings[0].definitions[0].definition} */}
               </p>
+              </div>
               </div>
             )
            })}

@@ -88,6 +88,7 @@ code {
   width: 30px;
   height: 30px;
   color: red;
+  cursor: pointer;
 }
 .theme-icon{
   cursor: pointer;
@@ -134,4 +135,128 @@ code {
 }
 .sounds{
   margin-left: 600px;
+  color: #A445ED;
+  cursor: pointer;
+}
+
+@media screen and (max-width:992px) {
+  .logo{
+    display: flex;
+    width: 32px;
+    height: 36.5px;
+    margin-top: 58px;
+    border: 1.5px solid;
+    
+  }
+  .container{
+    display: flex;
+    width: 768px;
+    margin-bottom: 50px;
+    margin-left: -585px;
+  
+  }
+  .darkmoon{
+    display: flex;
+    flex-direction: row;
+    width: 79.99px;
+    height: 20px;
+    margin-top: -46px;
+    margin-left: 880px;
+    
+  }
+  .searchform{
+    display: flex;
+    width: 689px;
+    height: 64px;
+    margin-left: 39px;
+    margin-top: 5px;
+    border: 1px solid;
+  }
+  
+  .inputText{
+    width: 689px;
+    
+  }
+  .search{
+    width: 30px;
+    height: 30px;
+    color: red;
+    cursor: pointer;
+  }
+  .theme-icon{
+    cursor: pointer;
+    margin-left: 10px;
+  }
+  .word{
+    display: flex;
+    width: 689px;
+    margin-left: 39px;
+    margin-top: 40px;
+    border: 1px solid;
+  }
+  
+}
+@media screen and (max-width:600px) {
+  .logo{
+    display: flex;
+    width: 28px;
+    height: 32.5px;
+    margin-top: 24px;
+    border: 1.5px solid;
+    
+    
+  }
+  .container{
+    display: flex;
+    width: 326.99px;
+    margin-bottom: 50px;
+    margin-left: -675px;
+  
+  }
+  .darkmoon{
+    display: flex;
+    flex-direction: row;
+    width: 79.99px;
+    height: 20px;
+    margin-top: -46px;
+    margin-left: 600px;
+    
+  }
+  .searchform{
+    display: flex;
+    width: 327px;
+    height: 68px;
+    margin-left: 24px;
+    margin-top: 5px;
+    border: 1px solid;
+  }
+  
+  .inputText{
+    width: 327px;
+    
+  }
+  .search{
+    width: 30px;
+    height: 30px;
+    color: red;
+    cursor: pointer;
+  }
+  .theme-icon{
+    cursor: pointer;
+    margin-left: 10px;
+  }
+  .word{
+    display: flex;
+    width: 327px;
+    margin-left: 24px;
+    margin-top: 30px;
+    border: 1px solid;
+  }
+  .sounds{
+    margin-left: 303px;
+    color: #A445ED;
+    cursor: pointer;
+    margin-top: -20px;
+  }
+  
 }
